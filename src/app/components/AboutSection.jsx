@@ -5,35 +5,35 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
+    title: "Habilidades",
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>HTML5</li>
+        <li>MySQL</li>
+        <li>php</li>
         <li>JavaScript</li>
         <li>React</li>
       </ul>
     ),
   },
   {
-    title: "Education",
+    title: "Educação",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Academia de Código Front-end</li>
+        <li>Na minha casa, Recife PE</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
+    title: "Certificados",
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
+        <li>Participação Fundação Bradesco</li>
         <li>Google Professional Cloud Developer</li>
       </ul>
     ),
@@ -69,21 +69,21 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+              Habilidades{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
-              Education{" "}
+              Educação{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               {" "}
-              Certifications{" "}
+              Certificados{" "}
             </TabButton>
           </div>
           <div className="mt-8">
