@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "Projetos 1 descrição",
     image: "/images/projects/1.png",
     tag: ["Todos", "Web"],
     gitUrl: "/",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "HTML TM Fibra Website",
-    description: "Project 2 description",
+    description: "Projetos 2 descrição",
     image: "/images/projects/2.png",
     tag: ["Todos", "Web"],
     gitUrl: "/",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "HTML Conet-Fibra Website",
-    description: "Project 3 description",
+    description: "Projetos 3 descrição",
     image: "/images/projects/3.png",
     tag: ["Todos", "Web"],
     gitUrl: "/",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Blog Espaco conforto dos pés",
-    description: "Project 4 description",
+    description: "Projetos 4 descrição",
     image: "/images/projects/4.png",
     tag: ["Todos", "Mobile"],
     gitUrl: "/",
@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "HTML Maria Xavier Website",
-    description: "Project 5 description",
+    description: "Projetos 5 descrição",
     image: "/images/projects/6.png",
     tag: ["Todos", "Web"],
     gitUrl: "/",
