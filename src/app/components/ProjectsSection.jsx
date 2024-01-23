@@ -16,7 +16,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "HTML TM Fibra Website",
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
@@ -25,7 +25,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
+    title: "HTML Conet-Fibra Fibra Website",
     description: "Project 3 description",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
@@ -34,7 +34,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Blog Espaco conforto dos pés",
     description: "Project 4 description",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
@@ -52,7 +52,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "HTML Maria Xavier Website",
     description: "Project 5 description",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
@@ -82,7 +82,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Meus Projetos
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
