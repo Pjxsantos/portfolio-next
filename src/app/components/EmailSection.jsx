@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
@@ -48,13 +47,15 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-secondary-900 to-transparent rounded-full h-60 w-60 z-0 blur-lg absolute top-4/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
-          Let&apos;s Connect
+        Vamos nos conectar
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          Atualmente estou em busca de novas
+          oportunidades, minha caixa de entrada
+          está sempre aberta. Se você tiver alguma
+          dúvida ou apenas quiser dizer oi, farei o possível
+          para entrar em contato com você!
         </p>
         <div className="socials flex flex-row gap-2">
           <Link className="rounded-full border-2 px-1 py-1 border-secondary-500" href="github.com">
@@ -68,7 +69,7 @@ const EmailSection = () => {
       <div>
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
-            Email sent successfully!
+            E-mail enviado com sucesso!
           </p>
         ) : (
           <form className="flex flex-col" onSubmit={handleSubmit}>
@@ -77,7 +78,7 @@ const EmailSection = () => {
                 htmlFor="email"
                 className="text-white block mb-2 text-sm font-medium"
               >
-                Your email
+                Seu email
               </label>
               <input
                 name="email"
@@ -93,7 +94,7 @@ const EmailSection = () => {
                 htmlFor="subject"
                 className="text-white block text-sm mb-2 font-medium"
               >
-                Subject
+                Assunto
               </label>
               <input
                 name="subject"
@@ -101,7 +102,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="Só dizer Oi"
               />
             </div>
             <div className="mb-6">
@@ -109,13 +110,13 @@ const EmailSection = () => {
                 htmlFor="message"
                 className="text-white block text-sm mb-2 font-medium"
               >
-                Message
+                Mesagem
               </label>
               <textarea
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
+                placeholder="Vamos falar sobre..."
               />
             </div>
             <button

@@ -62,7 +62,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 border-2 px-6 py-3 border-primary-500 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 border-2 px-6 py-3 border-primary-50 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/logo-paulo.png"
               alt="hero image"
