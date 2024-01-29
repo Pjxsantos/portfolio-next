@@ -14,8 +14,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body className={inter.className}>{children}</body>
-      <Script src="js/particles.js"/>
-      <Script src="js/app.js"/>
     </html>
   )
 }
