@@ -58,10 +58,10 @@ const EmailSection = () => {
           para entrar em contato com você!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link className="rounded-full border-2 px-1 py-1 border-primary-500" href="github.com">
+          <Link className="rounded-full border-2 px-1 py-1 border-secondary-500" href="github.com">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link className="rounded-full border-2 px-1 py-1 border-secondary-500" href="linkedin.com">
+          <Link className="rounded-full border-2 px-1 py-1 border-primary-500" href="linkedin.com">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
@@ -127,7 +127,7 @@ const EmailSection = () => {
             </button><br/>
             <a
               href="mailto:pauloaminsantos@gmail.com"
-              className="text-center bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="text-center mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
               pauloaminsantos@gmail.com
             </a>
